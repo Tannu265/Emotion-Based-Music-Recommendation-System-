@@ -8,7 +8,6 @@ FaceBeats is an intelligent emotion-based music recommendation system that uses 
 By combining Computer Vision and Deep Learning, the system creates a personalized and emotionally intuitive music experience in real time.
 
 Instead of manually choosing songs, users simply sit in front of a webcam, and FaceBeats takes care of the rest 🎧✨
----
 
 # 🎯 Key Features
 
