@@ -16,7 +16,6 @@ Emotion classification using a Convolutional Neural Network (CNN)
 Automatic music recommendation based on detected emotion
 Smooth integration of OpenCV and TensorFlow/Keras
 Supports multiple human emotions
----
 
 # 😊 Emotions Recognized & Music Behavior
 Emotion	Facial Expression	Music Recommendation
@@ -27,7 +26,6 @@ Surprised 😲	Raised eyebrows, open mouth	Dynamic or cinematic tracks
 Neutral 😐	No strong expression	Balanced or favorite playlists
 Fear 😨	Wide eyes, tense face	Calm & soothing music
 Disgust 🤢	Wrinkled nose, curled lips	Neutral music or skip track
----
 # 🛠️ Tech Stack
 
 Programming Language: Python
@@ -36,7 +34,6 @@ Deep Learning: TensorFlow, Keras
 Machine Learning: Scikit-learn
 Data Handling: NumPy, Pandas
 Visualization: Matplotlib
----
 
 # 📂 Project Structure
 FaceBeats/
@@ -65,7 +62,6 @@ Emotion Prediction
 CNN model predicts the emotion from facial features
 Music Recommendation
 Corresponding playlist/song is played automatically
----
 
 # 📚 Libraries Used
 
@@ -80,13 +76,11 @@ time – Delay handling
 scikit-learn – Model evaluation & preprocessing
 matplotlib – Data visualization
 pandas – Dataset handling
----
 
 # ✅ Conclusion
 
 FaceBeats successfully demonstrates how Artificial Intelligence, Machine Learning, and Computer Vision can work together to understand human emotions and respond in a meaningful way.
 By detecting emotions in real time and recommending mood-matching music, FaceBeats enhances user experience and showcases the potential of emotionally intelligent systems. This project highlights how technology can become more personal, empathetic, and engaging through AI.
 
----
 ## Author 
 Tannu Jha
