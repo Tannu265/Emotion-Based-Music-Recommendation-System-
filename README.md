@@ -1,86 +1,50 @@
-# Emotion-Based-Music-Recommendation-System-
----
-# 🎵 FaceBeats – Emotion-Based Music Recommendation System
----
-# 📌 Overview
+# Emotion Based Music Recommendation System
 
-FaceBeats is an intelligent emotion-based music recommendation system that uses facial expression recognition to detect a user’s current emotional state and automatically play music that matches their mood.
-By combining Computer Vision and Deep Learning, the system creates a personalized and emotionally intuitive music experience in real time.
+![Project Image Placeholder](images/image1.png)
+![Project Image Placeholder](images/image2.png)
+![Project Image Placeholder](images/image3.png)
+![Project Image Placeholder](images/image4.png)
 
-Instead of manually choosing songs, users simply sit in front of a webcam, and FaceBeats takes care of the rest 🎧✨
+### Overview
+This project implements a Song Recommendation Engine using K-Nearest Neighbors with the Spotify Music Dataset. It combines data from Spotify artists, albums, and tracks to create a comprehensive dataset for analysis and recommendation.
 
-# 🎯 Key Features
+### Features
+- Utilizes Spotify Music Dataset
+- Implements K-Nearest Neighbors algorithm for recommendation
+- Includes face emotion detection using ResNet architecture
 
-- Real-time facial emotion detection using a webcam
-- Emotion classification using a Convolutional Neural Network (CNN)
-- Automatic music recommendation based on detected emotion
-- Smooth integration of OpenCV and TensorFlow/Keras
-- Supports multiple human emotions
+### Installation
+To get started, clone this repository and install the required packages using pip:
 
-# 😊 Emotions Recognized & Music Behavior
-- Emotion	Facial Expression	Music Recommendation
-- Happy 😄	Smile, relaxed eyes	Upbeat & energetic tracks (Pop, Dance)
-- Sad 😢	Droopy eyes, downturned mouth	Soft, slow-tempo songs (Lo-fi, Acoustic)
-- Angry 😠	Furrowed brows, clenched jaw	Intense or expressive music (Rock, Metal)
-- Surprised 😲	Raised eyebrows, open mouth	Dynamic or cinematic tracks
-- Neutral 😐	No strong expression	Balanced or favorite playlists
-- Fear 😨	Wide eyes, tense face	Calm & soothing music
-- Disgust 🤢	Wrinkled nose, curled lips	Neutral music or skip track
-# 🛠️ Tech Stack
+```bash
+pip install -r requirements.txt
+```
 
-- Programming Language: Python
-- Computer Vision: OpenCV
-- Deep Learning: TensorFlow, Keras
-- Machine Learning: Scikit-learn
-- Data Handling: NumPy, Pandas
-- Visualization: Matplotlib
+### Usage
+To run the application, execute the following command:
 
-# 📂 Project Structure
-- FaceBeats/
-│
-- ├── final_model.py              # Main application (webcam + music playback)
-- ├── emotion.py                  # Emotion prediction logic
-- ├── cnn.py                      # CNN model architecture
-- ├── train_CNN.py                # Training script for CNN
-- ├── load_and_process.py         # Dataset loading & preprocessing
-- ├── Machine_learning_models.ipynb # Model experiments & evaluation
-- ├── haarcascade_frontalface_default.xml # Face detection model
-- ├── Classifier.hdf5             # Trained emotion recognition model
-- └── README.md                   # Project documentation
+```bash
+streamlit run app.py
+```
 
-# 🔄 Working Flow
+### Dataset
+The project uses three datasets:
+1. Spotify Artists
+2. Spotify Albums
+3. Spotify Tracks
 
-- Webcam Capture
-- Captures real-time video feed using OpenCV
-- Face Detection
-- Detects faces using Haar Cascade Classifier
-- Preprocessing
-- Converts image to grayscale
-- Resizes to 48×48
-- Normalizes pixel values
-- Emotion Prediction
-- CNN model predicts the emotion from facial features
-- Music Recommendation
-- Corresponding playlist/song is played automatically
+These datasets are merged to create a new dataset named `filter_track_df`.
 
-# 📚 Libraries Used
+### Technologies Used
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- ResNet
 
-- cv2 (OpenCV) – Face detection & video processing
-- tensorflow.keras – Model building & prediction
-- numpy – Numerical computations
-- imutils – Simplified OpenCV operations
-- argparse – Command-line argument handling
-- os – File & directory operations
-- webbrowser – Opens music links
-- time – Delay handling
-- scikit-learn – Model evaluation & preprocessing
-- matplotlib – Data visualization
-- pandas – Dataset handling
+### Contributors
+- Mahesh Sathe
 
-# ✅ Conclusion
-
-FaceBeats successfully demonstrates how Artificial Intelligence, Machine Learning, and Computer Vision can work together to understand human emotions and respond in a meaningful way.
-By detecting emotions in real time and recommending mood-matching music, FaceBeats enhances user experience and showcases the potential of emotionally intelligent systems. This project highlights how technology can become more personal, empathetic, and engaging through AI.
-
-## Author 
-Tannu Jha
+### License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
