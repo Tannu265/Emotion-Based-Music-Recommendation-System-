@@ -43,57 +43,55 @@ The system captures live video through a webcam, detects the user’s face using
 
   
 ---
-Emotion-Based-Music-Recommendation-System/
-│
-├── app.py                      # Main Flask application
-├── emotion.py                  # Emotion detection logic
-├── facialemotionmodel.h5       # Trained CNN model for emotion recognition
-├── requirements.txt            # Python dependencies
-├── Procfile                    # Deployment configuration
-├── setup.sh                    # Setup script for deployment
-├── LICENSE                     # License file
-│
-├── data/
-│   ├── filtered_track_df.csv   # Music dataset
-│   └── preprocess_data.ipynb   # Dataset preprocessing notebook
-│
-└── README.md
+## Emotion-Based-Music-Recommendation-System/
+- │
+- ├── app.py                      # Main Flask application
+- ├── emotion.py                  # Emotion detection logic
+- ├── facialemotionmodel.h5       # Trained CNN model for emotion recognition
+- ├── requirements.txt            # Python dependencies
+- ├── Procfile                    # Deployment configuration
+- ├── setup.sh                    # Setup script for deployment
+- ├── LICENSE                     # License file
+- │
+- ├── data/
+- │   ├── filtered_track_df.csv   # Music dataset
+- │   └── preprocess_data.ipynb   # Dataset preprocessing notebook
+- │
+- └── README.md
+
 ---
 
 ## ⚙️ Installation & Setup
 
-# 1️⃣ Clone the Repository
-git clone https://github.com/your-username/Emotion-Based-Music-Recommendation-System.git
+1️⃣ Clone the Repository
+git clone https://github.com/Tannu265/Emotion-Based-Music-Recommendation-System.git
 cd Emotion-Based-Music-Recommendation-System
 
-# 2️⃣ Create a Virtual Environment (Optional but Recommended)
+2️⃣ Create a Virtual Environment (Optional but Recommended)
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-# 3️⃣ Install Dependencies
+3️⃣ Install Dependencies
 pip install -r requirements.txt
 
-# 4️⃣ Run the Application
+4️⃣ Run the Application
 python app.py
 
-Open your browser and go to:
-http://127.0.0.1:5000/
+---
 
 ## 📸 How It Works
--The webcam captures the user’s face.
--A CNN model predicts the user’s emotion.
--The system filters songs related to that emotion.
--Music recommendations are displayed instantly.
-
-# 📊 Dataset
--The music dataset (filtered_track_df.csv) contains tracks tagged with emotional attributes.
--Data preprocessing steps are documented in preprocess_data.ipynb.
+- The webcam captures the user’s face.
+- A CNN model predicts the user’s emotion.
+- The system filters songs related to that emotion.
+- Music recommendations are displayed instantly.
 
 ---
-## Deployment
-The project includes:
--Procfile
--setup.sh
+
+# 📊 Dataset
+- The music dataset (filtered_track_df.csv) contains tracks tagged with emotional attributes.
+- Data preprocessing steps are documented in preprocess_data.ipynb.
+
+---
 
 ## 📌 Conclusion
 RhythmiQ successfully integrates facial emotion recognition with automated music recommendation, creating a smart and emotionally responsive system. By leveraging AI, deep learning, and computer vision, the project demonstrates how technology can adapt to human emotions and provide a more personalized, empathetic, and engaging user experience.
