@@ -48,7 +48,7 @@ The system captures live video through a webcam, detects the user’s face using
 
 1️⃣ Clone the Repository
 ```
-git clone https://github.com/your-username/Emotion-Based-Music-Recommendation-System.git
+git clone https://github.com/Tannu265/Emotion-Based-Music-Recommendation-System.git
 cd Emotion-Based-Music-Recommendation-System
 ```
 
