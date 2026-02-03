@@ -1,6 +1,6 @@
 # Emotion Based Music Recommendation System
 
-# 🎵 RhythmiQ – Emotion-Based Music Recommendation System
+# 🎵 RhythmiQ –Music Recommendation System
 
 ## 📌 Overview
 
