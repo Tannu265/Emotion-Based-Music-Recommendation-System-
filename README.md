@@ -1,50 +1,50 @@
 # Emotion Based Music Recommendation System
 
-![Project Image Placeholder](images/image1.png)
-![Project Image Placeholder](images/image2.png)
-![Project Image Placeholder](images/image3.png)
-![Project Image Placeholder](images/image4.png)
+🎵 FaceBeats – Emotion-Based Music Recommendation System
 
-### Overview
-This project implements a Song Recommendation Engine using K-Nearest Neighbors with the Spotify Music Dataset. It combines data from Spotify artists, albums, and tracks to create a comprehensive dataset for analysis and recommendation.
+## 📌 Overview
 
-### Features
-- Utilizes Spotify Music Dataset
-- Implements K-Nearest Neighbors algorithm for recommendation
-- Includes face emotion detection using ResNet architecture
+FaceBeats is an emotion-based music recommendation system that uses facial expression recognition to detect a user’s emotional state in real time and automatically play music that matches their mood. By combining Computer Vision and Deep Learning, the system delivers a personalized and emotionally intelligent music experience without requiring any manual input from the user.
 
-### Installation
-To get started, clone this repository and install the required packages using pip:
+The system captures live video through a webcam, detects the user’s face using OpenCV, predicts emotions using a trained Convolutional Neural Network (CNN), and recommends music accordingly. This project demonstrates how AI can understand human emotions and enhance digital experiences through smart automation.
+---
+## 🎯 Features
 
-```bash
-pip install -r requirements.txt
-```
+- Real-time facial emotion detection
+- CNN-based emotion classification
+- Automatic music recommendation
+- Webcam-based interaction
+- Emotion-aware personalized playlists
+---
+## 😊 Emotions & Music Recommendation
 
-### Usage
-To run the application, execute the following command:
+- Happy 😄 – Upbeat and energetic tracks (Pop, Dance)
+- Sad 😢 – Calm, slow-tempo songs (Lo-fi, Acoustic)
+- Angry 😠 – Intense or expressive music (Rock, Metal)
+- Surprised 😲 – Dynamic or cinematic tracks
+- Neutral 😐 – Balanced or favorite playlists
+- Fear 😨 – Soothing and relaxing music
+- Disgust 🤢 – Neutral music or track skip
+---
+33 🛠️ Technologies Used
 
-```bash
-streamlit run app.py
-```
-
-### Dataset
-The project uses three datasets:
-1. Spotify Artists
-2. Spotify Albums
-3. Spotify Tracks
-
-These datasets are merged to create a new dataset named `filter_track_df`.
-
-### Technologies Used
 - Python
-- Pandas
-- Scikit-learn
-- Streamlit
-- ResNet
+- OpenCV – Face detection & image processing
+- TensorFlow & Keras – Deep learning & CNN model
+- Scikit-learn – Machine learning utilities
+- NumPy & Pandas – Data handling
+- Matplotlib – Data visualization
+---
+## 📂 Project Files
 
-### Contributors
-- Mahesh Sathe
 
-### License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+
+
+
+---
+## 📌 Conclusion
+
+FaceBeats successfully integrates facial emotion recognition with automated music recommendation, creating a smart and emotionally responsive system. By leveraging AI, deep learning, and computer vision, the project demonstrates how technology can adapt to human emotions and provide a more personalized, empathetic, and engaging user experience.
+---
+## Author 
+**Tannu Jha**
