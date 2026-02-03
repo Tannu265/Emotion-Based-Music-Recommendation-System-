@@ -43,39 +43,30 @@ The system captures live video through a webcam, detects the user’s face using
 
   
 ---
-## Emotion-Based-Music-Recommendation-System/
-- │
-- ├── app.py                      # Main Flask application
-- ├── emotion.py                  # Emotion detection logic
-- ├── facialemotionmodel.h5       # Trained CNN model for emotion recognition
-- ├── requirements.txt            # Python dependencies
-- ├── Procfile                    # Deployment configuration
-- ├── setup.sh                    # Setup script for deployment
-- ├── LICENSE                     # License file
-- │
-- ├── data/
-- │   ├── filtered_track_df.csv   # Music dataset
-- │   └── preprocess_data.ipynb   # Dataset preprocessing notebook
-- │
-- └── README.md
-
----
 
 ## ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
-git clone https://github.com/Tannu265/Emotion-Based-Music-Recommendation-System.git
+```
+git clone https://github.com/your-username/Emotion-Based-Music-Recommendation-System.git
 cd Emotion-Based-Music-Recommendation-System
+```
 
 2️⃣ Create a Virtual Environment (Optional but Recommended)
+```
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
+```
 
 3️⃣ Install Dependencies
+```
 pip install -r requirements.txt
+```
 
 4️⃣ Run the Application
+```
 python app.py
+```
 
 ---
 
